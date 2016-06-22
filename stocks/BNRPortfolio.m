@@ -9,15 +9,26 @@
 #import "BNRPortfolio.h"
 #import "BNRStockHolding.h"
 #import "BNRForeignStockHolding.h"
+
+@interface BNRPortfolio()
+{
+    NSMutableArray *_holdings;
+}
+
+@end
+
 @implementation BNRPortfolio
+
 - (void) setHoldings:(NSArray *)h
 {
     _holdings = [h mutableCopy];
 }
+
 - (NSArray *)holdings
 {
     return [_holdings copy];
 }
+
 - (void) addStock:(BNRStockHolding *)stock
 {
     if (_holdings == nil)
@@ -26,6 +37,12 @@
     }
     [_holdings addObject:stock];
 }
+
+- (void) removeStock:(unsigned int)stock
+{
+    [_holdings removeObjectAtIndex:stock];
+}
+
 - (float) valueOfPortfolio
 {
     float sum = 0;
