@@ -22,7 +22,7 @@
 
 - (NSString *)description
 {
-    return [NSString stringWithFormat:@"\n\n    Stock Symbol: %@\n Number of Shares: %d\nPurchase Share Price: %.2f\n Current Share Price: %.2f\n   Cost In Dollars: %.2f\n     Value in dollars: %.2f\n", self.symbolName, self.numberOfShares, self.purchaseSharePrice, self.currentSharePrice, self.costInDollars, self.valueInDollars];
+    return [NSString stringWithFormat:@"Stock Symbol: %@ Number of Shares: %d Purchase Share Price: %.2f Current Share Price: %.2f   Cost In Dollars: %.2f     Value in dollars: %.2f", self.symbolName, self.numberOfShares, self.purchaseSharePrice, self.currentSharePrice, self.costInDollars, self.valueInDollars];
 }
 
 @end

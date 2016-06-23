@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "205D1E3B3701FEA8D227EFC182942854FFC46886",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "205D1E3B3701FEA8D227EFC182942854FFC46886" : 0,
+    "8723D3C58B04958CD447E0B4AFBCE76391CC77A3" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5C54A831-8597-4BE8-B3FE-A3F07EF90F4D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "205D1E3B3701FEA8D227EFC182942854FFC46886" : "stocks\/",
+    "8723D3C58B04958CD447E0B4AFBCE76391CC77A3" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "stocks",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "stocks.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:DanPatey\/stocks.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "205D1E3B3701FEA8D227EFC182942854FFC46886"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:DanPatey\/memory_management.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8723D3C58B04958CD447E0B4AFBCE76391CC77A3"
+    }
+  ]
+}

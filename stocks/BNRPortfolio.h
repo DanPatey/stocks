@@ -14,5 +14,7 @@
 
 - (float) valueOfPortfolio;
 - (void) addStock:(BNRStockHolding *)stock;
+- (NSArray *)mostValuableHoldings;
+- (NSArray *)holdingsSortedBySymbol;
 
 @end

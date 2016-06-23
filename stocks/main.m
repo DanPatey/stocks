@@ -41,6 +41,8 @@ int main(int argc, const char * argv[]) {
             NSLog(@"%@", stock);
         }
         NSLog(@"\n\nThe current value of your portfolio is: $%.2f", [myStockPortfolio valueOfPortfolio]);
+        NSLog(@"The top 3 most valuable holdings: %@", [myStockPortfolio mostValuableHoldings]);
+        NSLog(@"Holdings sorted by symbol: %@", [myStockPortfolio holdingsSortedBySymbol]);
     }
     return 0;
 }
